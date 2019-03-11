@@ -16,12 +16,7 @@
 }
 
 body {
-    background-image: url("../img/usa.jpg");
-    min-height: 100%;
-    background-size: cover;
-    display: flex;
-    flex: 1;
-    font-family: 'Montserrat', sans-serif;
+    background-color: #629C44;
 }
 
 .form-main {
