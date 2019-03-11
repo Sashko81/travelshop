@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Form</title>
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+    <body>
+        <header class="page-loaded" onload="startTime()"></header>
+        <main>
+            <section>
+                <h1>AJAX GET HTML</h1>
+                <div class="html-container"></div>
+                <button class="ajax-get-html">Get HTML</button>
+                <button class="fetch-get-html">Fetch HTML</button>
+            </section>
+            <section>
+                <h1>AJAX GET JSON</h1>
+                <div>
+                    <p>
+                        Client name: <span class="client-name"></span>
+                    </p>
+                    <p>
+                        Client account: <span class="client-account"></span>
+                    </p>
+                </div>
+                <button class="ajax-get-json">Get JSON</button>
+            </section>
+            <section>
+                <div class="form-main">
+                    <div class="form-div">
+                        <form class="form" method="post">
+                            <!--action="https://formspree.io/jumeau_sl@ukr.net"-->
+                            <p class="name">
+                                <label for="name"></label>
+                                <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" required minlength="4" maxlength="10">
+                            </p>
+                            <p class="email">
+                                <label for="email"></label>
+                                <input name="email" type="text" class="feedback-input" id="email" placeholder="Email">
+                            </p>
+                            <p class="text">
+                                <label for="comment"></label>
+                                <textarea name="text" class="feedback-input" id="comment" placeholder="Comment"></textarea>
+                            </p>
+                            <div class="submit">
+                                <input type="submit" value="SEND" class="button-submit"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="server-response"></div>
+            </section>
+        </main>
+        <script src="js/index.js"></script>
+    </body>
+</html>
