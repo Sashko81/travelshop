@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-.form-main {background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
- background-size: cover;
-    height:50%;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700'); .form-main {
+    background: url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+    background-size: cover;
+    height: 50%;
 }
 
 @media only screen and (max-width: 580px) {
-    #form-div{
+    #form-div {
         left: 3%;
         margin-right: 3%;
         width: 88%;
@@ -37,7 +37,7 @@ body {
     position: absolute;
     margin-top: 30px;
     margin-left: -260px;
- }
+}
 
 .feedback-input {
     color: #3c3c3c;
@@ -151,5 +151,4 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 
 .back-button {
     text-decoration: none;
-    
 }

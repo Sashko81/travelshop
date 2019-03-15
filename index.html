@@ -1,110 +1,112 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Traveling dream company</title>
-    <link rel="stylesheet" href="css/index.css" type="text/css">
-</head>
-<body>
-    <header>
-        <!--<div class="header-line">-->
-        <!--<img src="img/logo-company.gif" alt="logo-company">-->
-        <h1>Traveling dream company</h1>
-        <!--</div>-->
-        <div class="navigation">
-            <nav>
-                <ul class="menu">
-                    <li><a href="index.html">Home page</a></li>
-                    <li><a href="form.html">registration form</a></li>
-                    <li><a href="discount.html">Discounts</a>
-                    <!--<ul>
-                        <li><a href="#">Eastern</a></li>
-                        <li><a href="#">Central</a></li>
-                        <li><a href="#">Pacific</a></li>
-                        <li><a href="#">Mountain</a></li>
-                        <li><a href="#">Alaska</a></li>
-                    </ul>-->
-                </li>
-                <!--<li><a href="calculate.html">Calculate</a></li>-->
-                <li><a href="about.html">About us</a></li>
-            </ul>
-        </nav>
-            <div class="right-panel">
-        <div class="search">
-            <input type="text" name="search" placeholder="enter your direction">
-            <button>Search</button>
-        </div>
-        <div class="icons">
-            <img src="https://img.icons8.com/ios-glyphs/30/000000/home-page.png" alt="home">
-            <img src="https://img.icons8.com/ios-glyphs/30/000000/user.png" alt="user">
-            <img src="https://img.icons8.com/ios-glyphs/30/000000/add-shopping-cart.png" alt="basket">
-            <img src="https://img.icons8.com/ios-glyphs/30/000000/calendar.png" alt="calendar">
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Traveling dream company</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+        <link rel="stylesheet" href="css/form.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Traveling dream company</h1>
+            <div class="navigation">
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="index.html">Home page</a>
+                        </li>
+                        <li>
+                            <a href="form.html">registration form</a>
+                        </li>
+                        <li>
+                            <a href="discount.html">Discounts</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="right-panel">
+                    <div class="search">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="your direction" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0 bg-light" type="submit">search</button>
+                        </form>
+                    </div>
+                    <div class="icons bg-dark">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/home-page.png" alt="home">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/user.png" alt="user">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/add-shopping-cart.png" alt="basket">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/calendar.png" alt="calendar">
+                    </div>
+                </div>
             </div>
-    </div>
-</header>
-<main>
-    <!--<img src="img/new-york.jpg" alt="NYC-full" class="background-image">-->
-    <h2>Traveling around the USA with us</h2>
-    <h3>Directions:</h3>
-    <div class="direction-list">
-        <article class="region-card">
-            <img src="img/washington-dc.jpg" alt="washington-dc">
-            <h4>Washington dc</h4>
-            <div class="button-container"></div>
-                <button>Buy</button>
-                <button>Info</button>
-        </article>
-        <article class="region-card">
-        <img src="img/hawaii.jpg" alt="hawaii">
-        <h4>Hawaii</h4>
-        <div class="button-container">
-            <button>Buy</button>
-            <button>Info</button>
-        </div>
-        </article>
-        <article class="region-card">
-        <img src="img/san-francisco.jpg" alt="san-francisco">
-        <h4>San Francisco</h4>
-        <div class="button-container">
-            <button>Buy</button>
-            <button>Info</button>
-        </div>
-        </article>
-        <article class="region-card">
-            <img src="img/alaska.jpg" alt="alaska">
-            <h4>Alaska</h4>
-            <div class="button-container">
-                <button>Buy</button>
-                <button>Info</button>
+        </header>
+        <main>
+            <h2>Traveling around the USA with us</h2>
+            <h3>Directions:</h3>
+            <div class="direction-list">
+                <article class="region-card">
+                    <img src="img/washington-dc.jpg" alt="washington-dc">
+                    <h4>Washington dc</h4>
+                    <div class="button-container">
+                        <button>Buy</button>
+                        <button>Info</button>
+                    </div>
+                </article>
+                <article class="region-card">
+                    <img src="img/hawaii.jpg" alt="hawaii">
+                    <h4>Hawaii</h4>
+                    <div class="button-container">
+                        <button>Buy</button>
+                        <button>Info</button>
+                    </div>
+                </article>
+                <article class="region-card">
+                    <img src="img/san-francisco.jpg" alt="san-francisco">
+                    <h4>San Francisco</h4>
+                    <div class="button-container">
+                        <button>Buy</button>
+                        <button>Info</button>
+                    </div>
+                </article>
+                <article class="region-card">
+                    <img src="img/alaska.jpg" alt="alaska">
+                    <h4>Alaska</h4>
+                    <div class="button-container">
+                        <button>Buy</button>
+                        <button>Info</button>
+                    </div>
+                </article>
             </div>
-        </article>
-    </div>
-
-    <!--<form action="https://formspree.io/sashkooooo81@gmail.com" method="POST">
-        <label>
-            <select>
-                <option value="">&#45;&#45;More directions&#45;&#45;</option>
-                <option value="Eastern">Eastern</option>
-                <option value="Central">Central</option>
-                <option value="Pacific">Pacific</option>
-                <option value="Mountain">Mountain</option>
-                <option value="Alaska">Alaska</option>
-            </select>
-        </label>
-        <button class="button-send">Send</button>
-    </form>-->
-</main>
-<!--<footer>
-    <h5>For us</h5>
-    <p>
-        Fedkovych str Lviv Ukraine cell 00380970000001
-    </p>
-    <img src="img/facebook.png" alt="facebook-logo">
-    <img src="img/telegram.png" alt="telegram-logo">
-    <img src="img/youtube.png" alt="youtube-logo">
-</footer>-->
-</body>
+        </main>
+        <div class="form-main">
+            <div class="form-div">
+                <form class="form" method="post">
+                    <!--action="https://formspree.io/jumeau_sl@ukr.net"-->
+                    <p class="name">
+                        <label for="name"></label>
+                        <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" required minlength="4" maxlength="10">
+                    </p>
+                    <p class="email">
+                        <label for="email"></label>
+                        <input name="email" type="text" class="feedback-input" id="email" placeholder="Email">
+                    </p>
+                    <p class="text">
+                        <label for="comment"></label>
+                        <textarea name="text" class="feedback-input" id="comment" placeholder="Comment"></textarea>
+                    </p>
+                    <div class="submit">
+                        <input type="submit" value="SEND" class="button-submit"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="server-response"></div>
+        <script src="https://unpkg.com/lunr/lunr.js"></script>
+        <script src="js/index.js"></script>
+    </body>
 </html>
